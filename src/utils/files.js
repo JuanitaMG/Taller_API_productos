@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const FILENAME = 'products.json';
+const FILENAME = 'productos.json';
 
 function read() {
     return JSON.parse(fs.readFileSync(FILENAME));
